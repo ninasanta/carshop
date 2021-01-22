@@ -1,0 +1,114 @@
+
+
+.tile{ 
+  height:200px;
+  width:200px;
+  background-color: pink;
+  margin:10px;
+  border:15px solid red;
+  border-radius: 20%;
+  padding:50px;
+  border-style:initial;
+
+  display:inline-block;
+}
+#tile1{
+  /* background-color: blue; 
+  background-image: url("../images/HQ.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size:cover;*/
+  background: url("../images/HQ.jpeg") no-repeat 0px;
+  background-size:cover;
+}
+#tile2{
+  background-color:yellow;
+  float:right;
+}
+#tile3{
+  background-color:black;
+}
+#tile4{
+  background-color:green;
+}
+
+#tile5{
+  background-color: yellowgreen;
+}
+
+
+.product_name{
+  height:183px;
+  width:275px;
+}
+
+div div {
+  background-color: black;
+  height:20px;
+  width:20px;
+}
+
+#company_header{
+  height:50px;
+  background-color:#ab996f;
+  color:white;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: italic;
+  text-transform: none;
+  text-decoration:unset;
+  text-align:center;
+  /* text-shadow: 5px 4px 0px pink; */
+  letter-spacing: 1px;
+  word-spacing: 0px;
+}
+
+a{
+  text-decoration: none;
+}
+h2 {
+  font-weight: normal;
+  text-indent: 0px;
+
+}
+*{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+td > p{
+  text-align: center;
+}
+
+th{
+  background-color:#ab996f;
+  color:white;
+}
+
+ul > li{
+  list-style: square;
+  list-style-position: inside;
+  list-style:url("../images/blue_dot.png");
+}
+
+.category1, .category2{
+  background-color:gray;
+  color:white;
+}
+
+table{
+  border-color:silver;
+}
+
+#container{
+  width:85%;
+  margin: auto;
+  background-color: mintcream;
+}
+
+img{
+  width:100%;
+}
+
+a:hover {
+  background-color: silver;
+}

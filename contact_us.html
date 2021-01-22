@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact us</title>
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+<body>
+  <div id="container">
+  <header>
+    <div class="header">
+      <div class="header-logo">Carshop Company</div>
+      <div class="header-list">
+        <ul>
+          <a href="index_1.html">
+          <li>Home</li></a>
+          <a href="products.html">
+          <li>Products</li></a>
+          <a href="about_us.html">
+          <li>About us</li></a>
+          <a href="contact_us.html">
+          <li>Contact us</li></a>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <hr>
+  <form>
+    <label for ="fistname">Firstname:</label>
+    <input type="text" name="firstname" placeholder="Taro" id="firstname" required>
+    
+    <label for ="lastname">Lastname:</label>
+    <input type="text" name="lasttname" placeholder="Yamada" id="lastname" required>
+
+    <br>
+
+    <label for ="password">Password:</label>
+    <input type="password" name="password" id="password">
+
+    <br>
+    <label for ="birthday">Birthday:</label>
+    <input type="date" name="birthday" id="birthday">
+
+    <br>
+    <label for="age">Age</label>
+    <input type="number" id="age" name="age" min="0" max="100">
+
+    <br>
+
+    <label for ="email">Email Address:</label>
+    <input type="email" name="email" id="email">
+
+    <br>
+
+    <label for ="message">Message</label>
+    <textarea id="message" name="message"></textarea>
+
+    <br>
+
+    Industry:
+    <br>
+    <input type="radio" id="finance" name="industry" value="finance">
+    <label for ="finance">Finace</label>
+    <br>
+    <input type="radio" id="retail" name="industry" value="retail">
+    <label for ="retail">Retail</label>
+    <br>
+    <input type="radio" id="social services" name="industry" value="social services">
+    <label for ="social services">Socail services</label>
+
+    <br><br>
+    Hobbies:
+    <br>
+    <input type="checkbox" name="hobbies" value="art" id="art">
+    <label for ="art">Art</label>
+    <br>
+    <input type="checkbox" name="hobbies" value="sports" id="sports">
+    <label for ="sports">Sports</label>
+    <br>
+    <input type="checkbox" name="travels" value="travels" id="travels">
+    <label for ="travels">Travels</label>
+
+    <br>
+
+    <br>
+    Country of origin:
+    <select id="ccountry_of_origin">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="japan">Japan</option>
+      <option value="mozambique">Mozambique</option>
+      <option value="palau">Palau</option>
+    </select>
+    <br>
+    Countries visited:
+    <select id="ccountry_of_origin" multiple>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="japan">Japan</option>
+      <option value="mozambique">Mozambique</option>
+      <option value="palau">Palau</option>
+    </select>
+
+    <br>
+    <label for ="fileinput">File</label> 
+    <input type="file" id="fileinput" name="fileinput">
+
+    <br>
+    <button type="submit">Submit</button>
+
+    <br>
+    <input type="button" value="Input Button">
+
+    <br>
+
+    <input type="image" src="images/button.jpeg" alt="green button">
+
+    <br>
+
+
+  </form>
+  </div>
+</body>
+</html>
